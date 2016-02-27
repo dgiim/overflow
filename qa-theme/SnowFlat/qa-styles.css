@@ -43,7 +43,7 @@
 	font-family: "fontello";
 	src: url("fonts/fontello.eot?70015067") format("embedded-opentype"),
 		url("fonts/fontello.eot?70015067#iefix") format("embedded-opentype"),
-		url("fonts/fontello.woff?70015067") format("woff"),
+		url("fonts/fontello2.woff?70015067") format("woff"),
 		url("fonts/fontello.ttf?70015067") format("truetype"),
 		url("fonts/fontello.svg?70015067#fontello") format("svg");
   font-weight: normal;
@@ -1014,18 +1014,14 @@ blockquote p {
 		display: none;
 	}
 }
-.qa-template-user-activity .qa-q-item-stats {
-	width: 65px;
-}
-.qa-template-user-answers .qa-q-item-stats {
-	width: 68px;
-}
 @media (min-width: 241px) and (max-width: 799px) {
-	.qa-template-user-activity .qa-q-item-stats {
+	.qa-q-item-stats {
 		width: 60px;
 	}
-	.qa-template-user-answers .qa-q-item-stats {
-		width: 60px;
+}
+@media (min-width: 800px) {
+	.qa-q-item-stats {
+		width: 133px;
 	}
 }
 
