@@ -23,6 +23,9 @@ $(document).ready(function () {
 	 */
 	$('#qam-account-toggle').click(function (e) {
 		e.stopPropagation();
+		if($('.qa-nav-main').is(':visible')){
+			$('.qa-nav-main').slideToggle(100);
+		}
 		$(this).toggleClass('account-active');
 		$('.qam-account-items').slideToggle(100);
 	});
