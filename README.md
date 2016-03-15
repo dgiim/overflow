@@ -1,3 +1,10 @@
+dgiimOverflow
+-----------------------------
+[dgiimOverflow][overflow] es un foro de preguntas y respuestas sobre matemáticas e informática. Servido con ayuda de la [OSL][osl] y basado en [Question2Answer][Q2A]. Todo el mundo está invitado a participar, sea preguntando, respondiendo o contribuyendo en este repositorio.
+
+[overflow]: http://tux.ugr.es/dgiim/overflow/
+[osl]: http://osl.ugr.es/
+
 Question2Answer
 -----------------------------
 
