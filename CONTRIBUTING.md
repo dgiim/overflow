@@ -12,9 +12,13 @@ siguientes pasos:
    escribir en él el nombre y contraseña de la base de datos y del usuario.
 4. Opcionalmente, y si tenemos acceso a una base de datos de **dgiimOverflow**, podemos
    cargarla en nuestra base de datos usando:  
-   `mysql -u username -p database_name < file.sql`
+   ```
+   mysql -u username -p database_name < file.sql
+   ```  
    Así, el aspecto será el de la página original, en lugar de la página sin configurar.
    
 Los administradores pueden usar además:  
-`ssh -C dgiim@tux.ugr.es mysqldump -u dgiim -p QA > backup.sql`
+```
+ssh -C dgiim@tux.ugr.es mysqldump -u dgiim -p QA > backup.sql
+```
 Para acceder al servidor y descargar la última versión de la base de datos.
